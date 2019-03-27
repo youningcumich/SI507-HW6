@@ -107,7 +107,7 @@ From https://www.tutorialspoint.com/javascript/javascript_html_dom.htm
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
 
-It counts how many items are there inside <li> and </li> 
+It counts how many items are there inside ```js <li> and </li> ```
 
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
