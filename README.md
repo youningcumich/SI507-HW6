@@ -107,11 +107,36 @@ From https://www.tutorialspoint.com/javascript/javascript_html_dom.htm
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
 
+It counts how many items are there inside <li> and </li> 
 
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
 
+White
+
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
+
+The colors are defined at 
+
+```js
+<style>
+```
+
+I chose 
+```js
+<style>
+p{
+	background-color: #00BFFF;
+	border: 3px solid #FF0000;
+	padding: 3%;
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+</style>
+```
+to make them deepskyblue.
+	
+
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
