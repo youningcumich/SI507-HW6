@@ -58,7 +58,7 @@ Below are a bunch of questions and indications of things to do. For each indicat
 ### Names of people you have worked with on this assignment
 * List everyone's names and uniqnames who have worked on this assignment with you, **including your own name, but make sure YOUR name is first and bold**
 * Like this: 
-* **Jackie Cohen (jczetta)**
+* **You-Ning Chang (youningc)**
 * Yea-Ree Chang (cyearee)
 * Ruchi Ookalkar (ruchido)
 * Innocent Obi (innoobi)
@@ -79,19 +79,35 @@ Some JavaScript code
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
 
+//
+
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
+
+Put JavaScript between <script> and </script> of the html file.
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
+alert() and console.log(). We might use alert() for pop-up box and console.log() when we are debugging.
+
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
+
+alert("hello") should be comment out and alert(new Date()) should be added.
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
 
+Simply change Line 16 "A name" into "You-Ning Chang"
+
 * **What does the word `document` represent in this code? Explain briefly.**
+
+Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page.
+
+From https://www.tutorialspoint.com/javascript/javascript_html_dom.htm
 
 * **What is happening in line 12 ( 
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
+
+
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
 
