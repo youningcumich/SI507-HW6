@@ -140,6 +140,8 @@ to make them deepskyblue.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
+I figured out what to do by looking at how to display "Go Blue" when you try to copy University of Michigan.
+
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
 ```js
@@ -152,7 +154,7 @@ function handleClick(){
 ```js
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
-
+When you click the button `Wow`, you evoke the handleclick() function, which calls the alert("hello") function.
 
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
@@ -165,9 +167,15 @@ function handleClick(){
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
 
+The code between <style> and </style> make the errors in red and valid inputs in blue.
+
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 
+I googled var regex and learned the concept of regular expression. That line is helping with acceping only characters a to z and A to Z as valid inputs.
+
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
+
+
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
 
