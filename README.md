@@ -190,7 +190,7 @@ From https://www.w3schools.com/jquery/eff_fadeout.asp
 $(document).ready(function(){
     $("form").submit(function(event){
 ```
-
+Once this document is ready, the function can be run. Inside this function, the form is called, once it's submitted, the function is executed, which include an argument of an event. 
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
