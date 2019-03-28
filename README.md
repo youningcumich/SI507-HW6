@@ -175,9 +175,14 @@ I googled var regex and learned the concept of regular expression. That line is 
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 
+Compared to python, conditional statements in JavaScript put the condition in (), not space. Also, the block is inside {}, not indentation.
 
+From https://www.htmldog.com/guides/javascript/beginner/conditional/
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
+
+The `10000` refers to the speed of the fading effect.
+From https://www.w3schools.com/jquery/eff_fadeout.asp
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
